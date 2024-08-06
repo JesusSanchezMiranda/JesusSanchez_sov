@@ -1,5 +1,109 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a5185;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.Menu-Horizontal {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.Menu-Horizontal>li>a {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    padding: 8px 10px;
+    transition: all 300ms ease;
+    border-radius: 15px;
+}
+
+.Menu-Horizontal>li>a:hover {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)), url(/PaginaWebValleGrande/media/foto-ValleGrande.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center center;
+}
+
+.titulo h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.Nosotros {
+    background-position: center center;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: default;
+}
+
+.Nosotros h2 {
+    color: red;
+    padding: 20px 0px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Nosotros p{
+    font-size: 20px;
+}
+
+.historia {
+    background-position: center center;
+    cursor: default;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.historia h2 {
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0px 8px 0px;
+    color: blue;
+}
+
+.historia p{
+    font-size: 20px;
+}
+
+.historia a {
+    text-decoration: none;
+    background-color: #1a5185;
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.imagen{
+    margin-top: 40px;
+}
+.imagen img {
+    width: 190px;
+}
