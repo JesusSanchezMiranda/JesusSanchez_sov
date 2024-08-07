@@ -8,6 +8,8 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1a5185;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .logo img {
@@ -42,8 +44,8 @@ header {
     flex-direction: column;
     justify-content: center;
     background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)), url(/PaginaWebValleGrande/media/foto-ValleGrande.png);
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(/PaginaWebValleGrande/media/foto-ValleGrande.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -66,6 +68,7 @@ header {
     color: red;
     padding: 20px 0px;
     font-weight: 500;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -85,6 +88,7 @@ header {
 .historia h2 {
     text-align: center;
     font-weight: 500;
+    font-size: 45px;
     padding: 20px 0px 8px 0px;
     color: blue;
 }
@@ -97,8 +101,14 @@ header {
     text-decoration: none;
     background-color: #1a5185;
     color: white;
-    padding: 12px;
-    border-radius: 20px;
+    padding: 8px;
+    border-radius: 14px;
+    
+}
+
+.historia a:hover{
+    font-weight: 500;
+    background-color: rgb(9, 49, 105);;
 }
 
 .imagen{
@@ -106,4 +116,101 @@ header {
 }
 .imagen img {
     width: 190px;
+}
+
+.MisionVision{ 
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.MisionVision h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.MisionVision h3{
+    color: orange;
+    font-size: 30px;
+}
+
+.MisionVision p{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.MisionVision a{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #1a5185;
+    color: white;
+    padding: 8px;
+    border-radius: 14px;
+}
+
+.MisionVision a:hover{
+    font-weight: 500;
+    background-color: rgb(9, 49, 105);
+}
+
+.canalYoutube{
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.canalYoutube h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #1a5185;
+    padding: 50px 50px;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links{
+    width: 30%;
+    padding: 0px 30px;
+}
+
+.footer-links h4{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-links ul li {
+    list-style: none;
+    color: grey;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: grey;
+    display: block;
+    margin-bottom: 10px;
+    transition: all 0.3 ease;
+    transition: all 0.3s ease;
+}
+
+.footer-links ul li a:hover{
+    margin-left: 6px;
+    color: white;
+}
+
+.links-sociales{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links i{
+    font-size: 40px;  
 }
