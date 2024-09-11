@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion{
+ background-color: blueviolet;
+ padding: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+   font-weight: 700;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.segmento1{
+    margin-bottom: 40px;
+}
+
+.titulos-flores{
+    text-align: center;
+}
+
+.textos-flores{
+    text-align: justify;
+}
+.imagenes{
+    text-align: center;
+}
+
+.video-youtube{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.segmento2{
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(214, 214, 214);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.boton{
+    background-color: rgb(0, 167, 112);
+    color: white;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: rgb(123, 78, 165);
+    padding: 40px;
+  
+}
+
+.links-sociales{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-sociales li{
+    list-style: none;
+}
+
+.links-sociales a{
+    color: white;
+}
